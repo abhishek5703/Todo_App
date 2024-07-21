@@ -1,0 +1,49 @@
+body{
+    background-image: url(backgroundimg.jpeg);    /*Settig the background image*/
+}
+.heading{    /*Heading of the Todo App*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.enter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#task-input{        /*Task input*/
+    font-size: 1.4rem;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#add-button{         /*Add task button*/
+    font-size: 1.3rem;
+    border-radius: 8px;
+    margin-left: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+.tasks{    /*All the added tasks*/
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.tasks ul li{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.delete{        /*Tasks deletion button*/
+    font-size: 1.3rem;
+    border-radius: 9px;
+    margin-left: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
